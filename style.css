@@ -39,6 +39,33 @@ body {
     font-size: 20px;
 }
 
+.button4 {
+    background: linear-gradient( rgba(0, 0, 0, 0.317), rgba(0, 0, 0, 0.317)), url('./teamspeak/images/Screenshot_1.png')  83px 123px fixed;
+    border: 30px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0px 3px 133px -12px rgb(48 43 48 / 52%);
+    font-family: 'Raleway', sans-serif;    
+    font-size: 20px;
+}
+
+.button5 {
+    background: linear-gradient( rgba(0, 0, 0, 0.317), rgba(0, 0, 0, 0.317)), url('./teamspeak/images/Screenshot_2.png') -17px 503px fixed;
+    border: 30px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0px 3px 133px -12px rgb(0 0 0 / 32%);
+    font-family: 'Raleway', sans-serif;    
+    font-size: 20px;
+}
+
+.button6 {
+    background: linear-gradient( rgba(0, 0, 0, 0.317), rgba(0, 0, 0, 0.317)), url('./teamspeak/images/banner_2.png') -17px 503px fixed;
+    border: 30px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0px 3px 133px -12px rgb(0 0 0 / 32%);
+    font-family: 'Raleway', sans-serif;    
+    font-size: 20px;
+}
+
 a {
     text-decoration: none;
     color: unset;
