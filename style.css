@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
 body {
 
     color: white;
+
 }
 
 .title {
@@ -11,58 +14,99 @@ body {
     color: black;
 }
 
+/*Menü font*/
+.menu-font {
+    font-family: 'Inter', sans-serif;
+    color: rgb(59, 59, 59);
+    cursor: pointer;
+}
+
+.menu-font-used {
+    font-family: 'Inter', sans-serif;
+    color: rgb(159, 159, 159);
+    cursor: pointer;
+}
+
+.menu-font:hover {
+    font-family: 'Inter', sans-serif;
+    color: rgb(159, 159, 159);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+/*BOX minecraft download*/
+
+.box-first {
+    background-color: #afafaf;
+    border: 30px solid transparent;
+    border-radius: 10px;
+
+}
+
 .button1 {
-    background: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.479)), url('photo-1542546068979-b6affb46ea8f.jpg')  83px 123px fixed;
     border: 30px solid transparent;
     border-radius: 20px;
     box-shadow: 0px 3px 133px -12px rgb(48 43 48 / 52%);
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 
 
-.button2 {
-    background: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.479)), url('https://discord.com/assets/c01c644bc9fa2a28678ae2f44969d248.svg')  -150px -19px fixed;
-    border: 30px solid transparent;
+.button-download {
+    background: rgb(41, 86, 232);
+    color: white;
+    border: 10px solid transparent;
     border-radius: 20px;
     box-shadow: 0px 3px 133px -12px rgb(48 43 48 / 52%);
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
+
+.button-download:hover {
+    background: rgb(31, 59, 149);
+    color: white;
+    border: 10px solid transparent;
+    border-radius: 20px;
+    box-shadow: 0px 3px 133px -12px rgb(48 43 48 / 52%);
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 
 .button3 {
-    background: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.479)), url('https://images.unsplash.com/photo-1587573089734-09cb69c0f2b4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80')  -270px -19px fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.479)), url('https://images.unsplash.com/photo-1587573089734-09cb69c0f2b4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80') -270px -19px fixed;
     border: 30px solid transparent;
     border-radius: 20px;
     box-shadow: 0px 3px 133px -12px rgb(48 43 48 / 52%);
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 
 .button4 {
-    background: linear-gradient( rgba(0, 0, 0, 0.317), rgba(0, 0, 0, 0.317)), url('./teamspeak/images/Screenshot_1.png')  83px 123px fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.317), rgba(0, 0, 0, 0.317)), url('./teamspeak/images/Screenshot_1.png') 83px 123px fixed;
     border: 30px solid transparent;
     border-radius: 20px;
     box-shadow: 0px 3px 133px -12px rgb(48 43 48 / 52%);
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 
 .button5 {
-    background: linear-gradient( rgba(0, 0, 0, 0.317), rgba(0, 0, 0, 0.317)), url('./teamspeak/images/Screenshot_2.png') -17px 503px fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.317), rgba(0, 0, 0, 0.317)), url('./teamspeak/images/Screenshot_2.png') -17px 503px fixed;
     border: 30px solid transparent;
     border-radius: 20px;
     box-shadow: 0px 3px 133px -12px rgb(0 0 0 / 32%);
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 
 .button6 {
-    background: linear-gradient( rgba(0, 0, 0, 0.317), rgba(0, 0, 0, 0.317)), url('./teamspeak/images/banner_2.png') -17px 503px fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.317), rgba(0, 0, 0, 0.317)), url('./teamspeak/images/banner_2.png') -17px 503px fixed;
     border: 30px solid transparent;
     border-radius: 20px;
     box-shadow: 0px 3px 133px -12px rgb(0 0 0 / 32%);
-    font-family: 'Raleway', sans-serif;    
+    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 
@@ -71,12 +115,20 @@ a {
     color: unset;
 }
 
+text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    color: white;
+    text-align: right;
+
+}
+
 details {
     display: block;
     width: 60%;
     text-align: left;
-    font-family: 'Raleway', sans-serif;    
-    font-size: 20px;    
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
 
 }
 
@@ -104,7 +156,7 @@ summary {
     width: 95%;
     word-wrap: break-word;
     cursor: pointer;
-    background: linear-gradient( rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.479)), url('https://images.unsplash.com/photo-1569437061241-a848be43cc82?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')  83px 123px fixed;
+    background: linear-gradient(rgba(0, 0, 0, 0.479), rgba(0, 0, 0, 0.479)), url('https://images.unsplash.com/photo-1569437061241-a848be43cc82?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80') 83px 123px fixed;
 
 }
 
@@ -120,6 +172,7 @@ summary:focus {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
@@ -131,32 +184,33 @@ details {
 
 * {
     box-sizing: border-box;
-  }
-  
-  .flex-container {
+}
+
+.flex-container {
     display: flex;
     flex-direction: row;
     padding: 100px;
     font-size: 30px;
     text-align: center;
-  }
-  
-  .flex-item-1 {
+}
+
+.flex-item-1 {
     padding: 10px;
     flex: 50%;
-  }
-  
-  .flex-item-2 {
+}
+
+.flex-item-2 {
     padding: 10px;
     flex: 50%;
-  }
-  .flex-item-3 {
+}
+
+.flex-item-3 {
     padding: 10px;
     flex: 50%;
-  }
-  
-  @media (max-width: 800px) {
+}
+
+@media (max-width: 800px) {
     .flex-container {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+}
