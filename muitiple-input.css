@@ -2,13 +2,13 @@
 
 .box{
     margin: auto auto;
-    display: flex;
+    display: contents;
     width: 50px;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .nametag{
-  position: absolute;
+  position:absolute;
 }
 
 .nametag:nth-child(1){
