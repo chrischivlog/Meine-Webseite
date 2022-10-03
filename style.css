@@ -4,7 +4,6 @@
 
 
 
-
 body {
     color: white;
 }
@@ -28,6 +27,16 @@ body {
         color: white;
     }
   }
+
+
+/*index font*/
+
+.index-font {
+    font-family: 'Inter', sans-serif;
+    color: rgb(32, 32, 32);
+    font-size: xxx-large;
+    text-transform: uppercase;
+}
 
 /*Menü font*/
 .menu-font {
@@ -214,6 +223,7 @@ details {
     display: flex;
     flex-direction: row;
     padding: 100px;
+    padding-top: 3px;
     font-size: 30px;
     text-align: center;
 }
